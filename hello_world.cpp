@@ -1,11 +1,10 @@
 #include <iostream>
 #include <string>
-using namesapce std;
 
 int main() {
-    string name;
-    cout << "Enter your name:";
-    cin >> name;
-    cout << "hello world from" << name;
+    std::string name;
+    std::cout << "Enter your name:";
+    std::cin >> name;
+    std::cout << "hello world from" << name;
     return 0;
 }
